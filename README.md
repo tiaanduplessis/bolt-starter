@@ -8,9 +8,6 @@
 <br>
 <div align="center">
     <a href="https://npmjs.org/package/bolt-starter">
-      <img src="https://img.shields.io/npm/v/bolt-starter.svg?style=flat-square" alt="NPM version" />
-    </a>
-    <a href="https://npmjs.org/package/bolt-starter">
     <img src="https://img.shields.io/npm/dm/bolt-starter.svg?style=flat-square" alt="Downloads" />
     </a>
     <a href="https://github.com/feross/standard">
@@ -49,7 +46,7 @@ There are many [great starter projects](#others) for [React Native](https://face
 
 This starter relies on [many great modules](package.json) , including:
 
-- [React Native Elements](https://github.com/react-native-community/react-native-elements)
+- [React Native Elements](https://github.com/react-native-community/react-native-elements) - React Native Elements UI Toolkit
 - [React Navigation](https://reactnavigation.org/) - Start quickly with built-in navigators that deliver a seamless out-of-the box experience.
 - [React Native Animatable](https://github.com/oblador/react-native-animatable) - Standard set of easy to use animations and declarative transitions for React Native
 - [React Native Device Info](https://github.com/rebeccahughes/react-native-device-info) - Device Information for React Native iOS and Android
