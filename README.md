@@ -19,6 +19,12 @@
     <a href="https://badge.fury.io/gh/tiaanduplessis%2Fbolt-starter">
       <img src="https://badge.fury.io/gh/tiaanduplessis%2Fbolt-starter.svg?style=flat-square" alt="GitHub version" />
    </a>
+   <a href="https://greenkeeper.io/">
+      <img src="https://badges.greenkeeper.io/tiaanduplessis/bolt-starter.svg?style=flat-square" alt="Greenkeeper" />
+   </a>
+   <a href="https://travis-ci.org/tiaanduplessis/bolt-starter">
+      <img src="https://img.shields.io/travis/tiaanduplessis/bolt-starter/master.svg?style=flat-square" alt="Travis Build" />
+    </a>
 </div>
 <br>
 <div align="center">
@@ -39,8 +45,6 @@
 </details>
 
 ## Motivation
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/bolt-starter.svg)](https://greenkeeper.io/)
 
 There are many [great starter projects](#others) for [React Native](https://facebook.github.io/react-native/). This one is used in production at [Full Facing](http://www.fullfacing.com) and comes with a logical setup to let you hit the ground running. It includes a basic todo application example.
 
