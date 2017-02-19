@@ -43,6 +43,8 @@
 
 ## Motivation
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/bolt-starter.svg)](https://greenkeeper.io/)
+
 There are many [great starter projects](#others) for [React Native](https://facebook.github.io/react-native/). This one is used in production at [Full Facing](http://www.fullfacing.com) and comes with a logical setup to let you hit the ground running. It includes a basic todo application example.
 
 ## Uses
