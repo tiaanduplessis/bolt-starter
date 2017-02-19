@@ -3542,6 +3542,10 @@ react-native-elements@^0.9.6:
     react-native-side-menu "^0.20.1"
     react-native-tab-navigator "^0.3.3"
 
+react-native-keyboard-spacer@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/react-native-keyboard-spacer/-/react-native-keyboard-spacer-0.3.1.tgz#9580297ebfd078202dc4c65303d29cda35de67f1"
+
 react-native-side-menu@^0.20.1:
   version "0.20.1"
   resolved "https://registry.yarnpkg.com/react-native-side-menu/-/react-native-side-menu-0.20.1.tgz#df21b4bb9d8a1aa3bae53d74ddf8a739eb59bfc5"
