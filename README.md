@@ -44,7 +44,7 @@ There are many [great starter projects](#others) for [React Native](https://face
 
 ## Uses
 
-This starter relies on [many great modules](package.json) , including:
+This starter relies on [many great modules](package.json), including:
 
 - [React Native Elements](https://github.com/react-native-community/react-native-elements) - React Native Elements UI Toolkit
 - [React Navigation](https://reactnavigation.org/) - Start quickly with built-in navigators that deliver a seamless out-of-the box experience.
@@ -59,17 +59,42 @@ This starter relies on [many great modules](package.json) , including:
 
 ## Install
 
-To get started clone the repo and `cd` into it:
+### Using CLI
+
+You can install the [bolt-starter-cli](https://github.com/tiaanduplessis/bolt-starter-cli) globally. Running the `bolt-starter` command will then clone the repo, install all the dependencies and rename the project to the name you specify:
 
 ```sh
-$ git clone https://github.com/tiaanduplessis/bolt.git NewApp; cd NewApp
+$ npm install -g bolt-starter-cli
 ```
 
-Then install the dependencies:
+Or
+
+```sh
+yarn global add bolt-starter-cli
+```
+
+Then run `bolt-starter` with your new project name:
+
+```sh
+$ bolt-starter BestAppEver
+```
+
+### Cloning
+
+You can also just clone the repo:
+
+
+```sh
+$ git clone https://github.com/tiaanduplessis/bolt-starter.git
+```
+
+Then `cd` into it and install the dependencies:
 
 ```sh
 $ yarn # npm i
 ```
+
+### Post Install
 
 If everything goes off smoothly you should be able to run the project.
 
