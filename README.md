@@ -7,9 +7,6 @@
 </div>
 <br>
 <div align="center">
-    <a href="https://npmjs.org/package/bolt-starter">
-    <img src="https://img.shields.io/npm/dm/bolt-starter.svg?style=flat-square" alt="Downloads" />
-    </a>
     <a href="https://github.com/feross/standard">
       <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" alt="Standard" />
     </a>
