@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Motivation</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/github-markdown.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css"/>
+  </head>
+  <body>
+    <article class="markdown-body"><p><h1 align="center">
+  ⚡ Bolt
+</h1>
+<br></p>
+<div align="center">
+  <strong>Rapid starter for your next React Native project</strong>
+</div>
+<br>
+<div align="center">
+    <a href="https://github.com/feross/standard">
+      <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" alt="Standard" />
+    </a>
+    <a href="https://github.com/RichardLitt/standard-readme)">
+      <img src="https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square" alt="Standard Readme" />
+    </a>
+    <a href="https://badge.fury.io/gh/tiaanduplessis%2Fbolt-starter">
+      <img src="https://badge.fury.io/gh/tiaanduplessis%2Fbolt-starter.svg?style=flat-square" alt="GitHub version" />
+   </a>
+   <a href="https://greenkeeper.io/">
+      <img src="https://badges.greenkeeper.io/tiaanduplessis/bolt-starter.svg?style=flat-square" alt="Greenkeeper" />
+   </a>
+   <a href="https://travis-ci.org/tiaanduplessis/bolt-starter">
+      <img src="https://img.shields.io/travis/tiaanduplessis/bolt-starter/master.svg?style=flat-square" alt="Travis Build" />
+    </a>
+</div>
+<br>
+<div align="center">
+  Built with ❤︎ by <a href="tiaanduplessis.co.za">Tiaan</a> and <a href="https://github.com/tiaanduplessis/bolt/graphs/contributors">contributors</a>
+</div>
+
+<p><h2>Table of Contents</h2></p>
+<details>
+  <summary>Table of Contents</summary>
+  <li><a href="#motivation">Motivation</a></li>
+  <li><a href="#uses">Uses</a></li>
+  <li><a href="#install">Install</a></li>
+  <li><a href="#usage">Usage</a></li>
+  <li><a href="#api">API</a></li>
+  <li><a href="#others">Others</a></li>
+  <li><a href="#contribute">Contribute</a></li>
+  <li><a href="#license">License</a></li>
+</details>
+
+<h2 id="motivation"><a class="header-link" href="#motivation"></a>Motivation</h2>
+<p>There are many <a href="#others">great starter projects</a> for <a href="https://facebook.github.io/react-native/">React Native</a>. This one is used in production at <a href="http://www.fullfacing.com">Full Facing</a> and comes with a logical setup to let you hit the ground running. It includes a basic todo application example.</p>
+<h2 id="uses"><a class="header-link" href="#uses"></a>Uses</h2>
+<p>This starter relies on <a href="package.json">many great modules</a>, including:</p>
+<ul class="list">
+<li><a href="https://github.com/react-native-community/react-native-elements">React Native Elements</a> - React Native Elements UI Toolkit</li>
+<li><a href="https://reactnavigation.org/">React Navigation</a> - Start quickly with built-in navigators that deliver a seamless out-of-the box experience.</li>
+<li><a href="https://github.com/oblador/react-native-animatable">React Native Animatable</a> - Standard set of easy to use animations and declarative transitions for React Native</li>
+<li><a href="https://github.com/rebeccahughes/react-native-device-info">React Native Device Info</a> - Device Information for React Native iOS and Android</li>
+<li><a href="http://facebook.github.io/jest/">Jest</a> - Painless JavaScript Testing</li>
+<li><a href="https://lodash.com/">lodash</a> - A modern JavaScript utility library delivering modularity, performance &amp; extras.</li>
+<li><a href="https://mobx.js.org/">MobX</a> - Simple, scalable state management</li>
+<li><a href="http://codepush.tools/">CodePush</a> - Push code updates to your apps, instantly</li>
+<li><a href="http://standardjs.com/">JavaScript Standard Style </a> - One JavaScript Style Guide to Rule Them All</li>
+<li><a href="https://github.com/typicode/husky">Husky</a> - Git hooks made easy</li>
+<li><a href="https://github.com/ahmadassaf/code-notes">code-notes</a> - Tool to summarise all code annotation like TODO or FIXME</li>
+</ul>
+<h2 id="install"><a class="header-link" href="#install"></a>Install</h2>
+<h3 id="using-cli"><a class="header-link" href="#using-cli"></a>Using CLI</h3>
+<p>You can install the <a href="https://github.com/tiaanduplessis/bolt-starter-cli">bolt-starter-cli</a> globally. Running the <code>bolt-starter</code> command will then clone the repo, install all the dependencies and rename the project to the name you specify:</p>
+<pre class="hljs"><code>$ npm install -g bolt-starter-cli</code></pre><p>Or</p>
+<pre class="hljs"><code>yarn global add bolt-starter-cli</code></pre><p>Then run <code>bolt-starter</code> with your new project name:</p>
+<pre class="hljs"><code>$ bolt-starter BestAppEver</code></pre><h3 id="cloning"><a class="header-link" href="#cloning"></a>Cloning</h3>
+<p>You can also just clone the repo:</p>
+<pre class="hljs"><code>$ git <span class="hljs-built_in">clone</span> https://github.com/tiaanduplessis/bolt-starter.git</code></pre><p>Then <code>cd</code> into it and install the dependencies:</p>
+<pre class="hljs"><code>$ yarn <span class="hljs-comment"># npm i</span></code></pre><h3 id="post-install"><a class="header-link" href="#post-install"></a>Post Install</h3>
+<p>If everything goes off smoothly you should be able to run the project.</p>
+<pre class="hljs"><code>$ react-native run-ios</code></pre><p>Or</p>
+<pre class="hljs"><code>$ react-native run-ios</code></pre><h2 id="others"><a class="header-link" href="#others"></a>Others</h2>
+<p>This starter project may not be exactly what your looking for and there are some amazing alternatives. I recommend you check out:</p>
+<ul class="list">
+<li><a href="https://github.com/infinitered/ignite">Ignite</a></li>
+<li><a href="https://github.com/futurice/pepperoni-app-kit">pepperoni-app-kit</a></li>
+<li><a href="https://github.com/dabit3/react-native-hackathon-starter">react-native-hackathon-starter</a></li>
+<li><a href="https://github.com/jsappme/react-native-firebase-starter">react-native-firebase-starter</a></li>
+</ul>
+<h2 id="contribute"><a class="header-link" href="#contribute"></a>Contribute</h2>
+<p>Contributions are welcome. Please open up an issue or create PR if you would like to help out.</p>
+<p>Note: If editing the README, please conform to the <a href="https://github.com/RichardLitt/standard-readme">standard-readme</a> specification.</p>
+<h2 id="license"><a class="header-link" href="#license"></a>License</h2>
+<p>Licensed under the MIT License.</p>
+    </article>
+  </body>
+</html>
