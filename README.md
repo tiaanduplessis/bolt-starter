@@ -59,6 +59,7 @@ This starter relies on [many great modules](package.json), including:
 - [CodePush](http://codepush.tools/) - Push code updates to your apps, instantly
 - [JavaScript Standard Style ](http://standardjs.com/) - One JavaScript Style Guide to Rule Them All
 - [Husky](https://github.com/typicode/husky) - Git hooks made easy
+- [code-notes](https://github.com/ahmadassaf/code-notes) - Tool to summarise all code annotation like TODO or FIXME
 
 ## Install
 
@@ -102,11 +103,11 @@ $ yarn # npm i
 If everything goes off smoothly you should be able to run the project.
 
 ```sh
-$ react-native run-ios 
+$ react-native run-ios
 ```
 Or
 ```sh
-$ react-native run-ios 
+$ react-native run-ios
 ```
 
 ## Others

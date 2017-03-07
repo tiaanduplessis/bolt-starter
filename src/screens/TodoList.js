@@ -6,7 +6,6 @@ import colors from '../config/colors'
 
 @inject('listStore') @observer
 class TodoList extends Component {
-
   state = {
     text: ''
   }

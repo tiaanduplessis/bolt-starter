@@ -29,7 +29,8 @@
 		"android:build": "cd android && ./gradlew assembleRelease",
 		"android:install": "cd android && ./gradlew assembleRelease && ./gradlew installRelease",
 		"android:devices": "$ANDROID_HOME/platform-tools/adb devices",
-		"android:logcat": "$ANDROID_HOME/platform-tools/adb logcat *:S ReactNative:V ReactNativeJS:V"
+		"android:logcat": "$ANDROID_HOME/platform-tools/adb logcat *:S ReactNative:V ReactNativeJS:V",
+		"notes": "notes -s src/"
 	},
 	"dependencies": {
 		"lodash": "^4.17.4",
@@ -51,6 +52,7 @@
 		"babel-plugin-transform-decorators-legacy": "^1.3.4",
 		"babel-preset-react-native": "1.9.1",
 		"babel-preset-react-native-stage-0": "^1.0.1",
+		"code-notes": "^1.0.4",
 		"husky": "^0.13.1",
 		"jest": "19.0.2",
 		"react-test-renderer": "~15.4.0",
