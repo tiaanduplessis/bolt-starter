@@ -22,7 +22,7 @@
     <a href="https://dependencyci.com/github/tiaanduplessis/bolt-starter">
     <img src="https://dependencyci.com/github/tiaanduplessis/bolt-starter/badge?style=flat-square" alt="Dependency CI" />
   </a>
-  <a href="https://github.com/tiaanduplessis/bolt-starter/blob/master/other/LICENSE">
+  <a href="https://github.com/tiaanduplessis/bolt-starter/blob/master/LICENSE">
     <img src="https://img.shields.io/npm/l/bolt-starter.svg?style=flat-square" alt="License" />
   </a>
   <a href="http://makeapullrequest.com">
