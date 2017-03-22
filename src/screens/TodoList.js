@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, Alert } from 'react-native'
 import { Button, List, ListItem, FormInput } from 'react-native-elements'
 import {observer, inject} from 'mobx-react/native'
 import colors from '../config/colors'
@@ -26,6 +26,14 @@ class TodoList extends Component {
     navigate('NewItem', { item })
   }
 
+  handleAddPress = () => {
+    if (this.state.text) {
+      this.addListItem(this.state.text)
+    } else {
+      Alert.alert('Oops', 'Please enter a list name.')
+    }
+  }
+
   render () {
     const { list } = this.props.listStore
 
@@ -48,6 +56,7 @@ class TodoList extends Component {
         <View>
 
           <FormInput
+            placeholder='Enter new list name'
             value={this.state.text}
             containerStyle={styles.addInput}
             onChangeText={this.updateText}
@@ -58,7 +67,7 @@ class TodoList extends Component {
             title={this.state.text === '' ? 'New List' : 'Add New List Item'}
             icon={{name: 'add'}}
             raised
-            onPress={this.state.text === '' ? this.toggleInput : () => this.addListItem(this.state.text)}
+            onPress={this.handleAddPress}
           />
 
         </View>

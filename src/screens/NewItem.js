@@ -43,6 +43,7 @@ class NewItem extends Component {
         <View>
 
           <FormInput
+            placeholder='Enter new item'
             value={this.state.newItem}
             containerStyle={styles.addInput}
             onChangeText={this.updateNewItem}
