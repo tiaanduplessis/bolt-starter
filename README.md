@@ -1,5 +1,5 @@
 <h1 align="center">
-  ⚡ Bolt
+  UNMAINTAINED - ⚡ Bolt
 </h1>
 <br>
 <div align="center">
@@ -13,23 +13,17 @@
     <a href="https://github.com/RichardLitt/standard-readme)">
       <img src="https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square" alt="Standard Readme" />
     </a>
-    <a href="https://badge.fury.io/gh/tiaanduplessis%2Fbolt-starter">
-      <img src="https://badge.fury.io/gh/tiaanduplessis%2Fbolt-starter.svg?style=flat-square" alt="GitHub version" />
+    <a href="https://badge.fury.io/gh/trashify%2Fbolt-starter">
+      <img src="https://badge.fury.io/gh/trashify%2Fbolt-starter.svg?style=flat-square" alt="GitHub version" />
    </a>
-   <a href="https://travis-ci.org/tiaanduplessis/bolt-starter">
-      <img src="https://img.shields.io/travis/tiaanduplessis/bolt-starter/master.svg?style=flat-square" alt="Travis Build" />
+   <a href="https://travis-ci.org/trashify/bolt-starter">
+      <img src="https://img.shields.io/travis/trashify/bolt-starter/master.svg?style=flat-square" alt="Travis Build" />
     </a>
-    <a href="https://dependencyci.com/github/tiaanduplessis/bolt-starter">
-    <img src="https://dependencyci.com/github/tiaanduplessis/bolt-starter/badge?style=flat-square" alt="Dependency CI" />
-  </a>
-  <a href="https://github.com/tiaanduplessis/bolt-starter/blob/master/LICENSE">
+  <a href="https://github.com/trashify/bolt-starter/blob/master/LICENSE">
     <img src="https://img.shields.io/npm/l/bolt-starter-cli.svg?style=flat-square" alt="License" />
   </a>
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs" />
-  </a>
-  <a href="https://www.paypal.me/tiaanduplessis/1">
-    <img src="https://img.shields.io/badge/$-support-green.svg?style=flat-square" alt="Donate" />
   </a>
 </div>
 <br>
